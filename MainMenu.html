@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<!-- Menampilkan Title Di Browser Berjudul Main Menu -->
+<title>MainMenu</title>
+	<!-- Load CSS di folder CSS dengan File bernama Style.CSS -->
+<link href="CSS/Style.css" rel="stylesheet" type="text/css"> 
+</head>
+
+<body class="main">
+	<!-- Membuat tabel tanpa border dengan ukuran yg sudah di tentukan dengan class mainmenu untuk nanti di edit cssnya -->
+	<table class="mainmenu"  width="574px" height="302px" >
+	  <tbody>
+	    <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td height="100">&nbsp;</td>
+        </tr>
+	    <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>
+			  <!-- Menampilkan tombol dengan nama Pengaturan  -->
+			  <button onclick="document.location='setting.html'">Pengaturan</button>
+		  </td>
+        </tr>
+	    <tr>
+	      <td width="200">&nbsp;</td>
+			<!-- Menampilkan tombol dengan nama Play  -->
+	      <td width="200"><input type="button" name="Play" id="Play" value="Play"></td>
+			<!-- Menampilkan tombol dengan nama Bantuan  -->
+	      <td><button onclick="document.location='bantuan.html'">Bantuan</button></td>
+        </tr>
+	    <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+			<!-- Menampilkan tombol dengan nama Credits  -->
+	      <td><button onclick="document.location='Credits.html'">Credits</button></td>
+        </tr>
+		<tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+        </tr>
+
+      </tbody>
+</table>	
+</body>
+</html>
